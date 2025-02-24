@@ -1,4 +1,4 @@
-BFL Implementation
+Boolean Fault tree Logic (BFL)
 ==================
 Boolean Fault tree Logic (BFL) is a logic designed by Nicoletti et al. to
 formally define properties of fault trees [1]. A set of fault tree models and properties specified using BFL can be found in this repository.
