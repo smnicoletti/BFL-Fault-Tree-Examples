@@ -1,0 +1,18 @@
+toplevel IWoS; // For a graphical representation of this tree, see figures/FT_COVID_Example_tree_VOT.pdf
+IWoS vot>=2 CPR MoT SH;
+CPR or CP CR;
+CP and IW H3;
+CR and IT H2;
+MoT or CT DT AT CVT UT;
+CT or CIW CIO CIS;
+CIW and IW PP H1;
+CIO and IT MH1;
+MH1 and H1 H4;
+CIS and IS MH2;
+MH2 and H1 H5;
+DT and IW PP;
+AT and IW AB;
+CVT and IW MV H1;
+SH and VW H1;
+---
+\exists(IWoS && \vot[<2](H1, H2, H3, H4, H5));
